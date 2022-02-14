@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Forms</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Forms!</h1>
+      <hr/>
+    </header>
+
+    <main>
+      <!--Form 1-->
+      <h2>Form 1!</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Name"/>
+        
+
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday"/>
+
+        <label for="birth_hour">Birth hour:</label>
+        <input type="time" id="birth_hour"/>
+        
+      </form>
+
+      <hr/>
+
+      <!--Form 2-->
+      <h2>Form 2!</h2>
+      <form>
+        <fieldset>
+          <legend><h3>Calendar</h3></legend>
+
+          <label for="day">Day:</label>
+          <input type="date" id="day" name="day"/>
+
+          <label for="hour">Hour:</label>
+          <input type="time" id="hour" name="hour"/>
+
+          <input type="submit" value="Send"/>
+        </fieldset>
+      </form>
+
+      <form>
+        <fieldset>
+          <legend><h3>Calendar All In One Input</h3></legend>
+
+          <label for="calendar">Calendar:</label>
+          <input type="datetime-local" id="calendar" name="calendar"/>
+          
+          <input type="submit" value="Send"/>
+        </fieldset>
+      </form>
+
+    </main>
+
+  </body>
+
+</html>
