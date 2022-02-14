@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Drop-Downs</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Drop-Down Forms!</h1>
+      <hr/>
+      <br/>
+    </header>
+
+    <main>
+
+      <form>
+        <fieldset>
+          <legend>
+            <b>Select</b> <i>(Recommended to Small Lists)</i>
+          </legend>
+
+          <span>Sex:</span>
+          <select name="sex" id="sex" required>
+            <option hidden disabled selected value>Select an option</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+
+          <input type="submit" value="Send"/>
+        </fieldset>
+      </form>
+
+      <br/>
+      <form>
+        <fieldset>
+          <legend>
+            <b>Input list</b> <i>(Recommended to Large Lists)</i>
+          </legend>
+
+          <input type="text" id="country" placeholder="Country" name="country" list="country-list" required/>
+          <datalist id="country-list">
+            <option value="Australia"></option>
+            <option value="Colombia"></option>
+            <option value="France"></option>
+            <option value="India"></option>
+            <option value="Brazil"></option>
+          </datalist>
+
+          <input type="submit" value="Send"/>
+        </fieldset>
+      </form>
+
+    </main>
+
+  </body>
+
+</html>
