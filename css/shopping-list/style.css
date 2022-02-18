@@ -1,0 +1,56 @@
+body {
+  background-color: #1f339a;
+}
+
+header {
+  background-color: #000e56;
+  border: 2px solid #7f00dd;
+  border-radius: 25px;
+}
+
+
+h1 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  color: white;
+}
+
+h2.product-type {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ab3aff;
+  margin-bottom: 0px;
+}
+
+
+img {
+  border-radius: 8px;
+  height: 120px;
+  width: auto;
+}
+
+figcaption {
+  text-align: center;
+}
+
+figcaption span {
+  color: #dbaaff;
+}
+
+
+div.products {
+  text-align: center;
+}
+
+div.products figure {
+  display: inline-block;
+  vertical-align: top;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
