@@ -1,0 +1,100 @@
+/*Font to all the page*/
+* {
+  font-family: Poppins;
+}
+
+/*Navigation bar*/
+div.slider__navigation-bar--container {
+  width: 1200px;
+  height: 84px;
+
+  margin-top: 30px; /*Just a distance from the top of the page*/
+  padding: 10px 66px 0px 66px;
+
+  border-radius: 55px;
+  background: linear-gradient( to right, #26416e, #3c8c97 );
+}
+
+button.slider__navigation-bar--button {
+  border: none;
+
+  max-width: 213px;
+  padding: 15px 40px 15px 40px;
+
+  border-radius: 10px 10px 0px 0px;
+}
+
+.slider__navigation-bar--button span {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+
+/*Slider*/
+div.slider__visual {
+  max-width: 1280px;
+
+  margin-top: 60px;
+}
+
+div.swiper-wrapper {
+  max-width: 1160px;
+
+  margin: 0px 60px 0px 60px;
+}
+
+div.swiper-slide.container-row {
+  display: flex;
+}
+
+div.slider__visual--left-side {
+  max-width: 520px;
+  padding: 8px 10px 0px 0px;
+}
+div.slider__visual--right-side {
+  margin-left: 79px;
+  max-width: 580px;
+}
+
+img.slider__visual--image {
+  width: 540px;
+  height: 350px;
+
+  border-radius: 10px;
+}
+
+
+/*--Slider Fonts*/
+.slider__visual--title {
+  font-size: 36px;
+  line-height: 44.89px;
+  font-weight: 700;
+  color: #24385c;
+}
+
+.slider__visual--subtitle {
+  margin-top: 27px;
+  margin-bottom: 33px;
+
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #24385c;
+}
+
+.slider__visual--text {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 370;
+  color: #333333;
+}
+
+/*Swiper buttons*/
+.swiper-button-next {
+  color: #b4b7c5;
+}
+
+.swiper-button-prev {
+  color: #b4b7c5;
+}
